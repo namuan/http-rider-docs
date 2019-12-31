@@ -1,0 +1,175 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HttpRider – Documentation</title>
+    <link>/docs/</link>
+    <description>Recent content in Documentation on HttpRider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Release 1.0</title>
+      <link>/docs/releases/release-1.0/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/releases/release-1.0/</guid>
+      <description>
+        
+        
+        &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;h4 id=&#34;fixes&#34;&gt;Fixes&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to navigate between HTTP requests history</title>
+      <link>/docs/how-tos/a_http-exchanges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/a_http-exchanges/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: OpenAPI</title>
+      <link>/docs/generators/a_open_api_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/generators/a_open_api_3/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to work with projects</title>
+      <link>/docs/how-tos/b_project-workspaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/b_project-workspaces/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to work with environment variables</title>
+      <link>/docs/how-tos/c_environment-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/c_environment-variables/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to work with variables with fake data variables</title>
+      <link>/docs/how-tos/d_fake-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/d_fake-data/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to work with API request chaining</title>
+      <link>/docs/how-tos/e_api_request_chaining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/e_api_request_chaining/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to work with API request labelling</title>
+      <link>/docs/how-tos/f_api_request_labelling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/f_api_request_labelling/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to test APIs with assertions</title>
+      <link>/docs/how-tos/g_api_assertions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/g_api_assertions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: How to work with mocking APIs</title>
+      <link>/docs/how-tos/h_mocking_apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-tos/h_mocking_apis/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Installation</title>
+      <link>/docs/getting-started/installation/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/installation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Quick Start</title>
+      <link>/docs/getting-started/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/quick-start/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
