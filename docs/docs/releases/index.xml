@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HttpRider – Releases</title>
-    <link>/docs/releases/</link>
+    <link>/http-rider-docs/docs/releases/</link>
     <description>Recent content in Releases on HttpRider</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="/docs/releases/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/http-rider-docs/docs/releases/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Release 1.0</title>
-      <link>/docs/releases/release-1.0/</link>
+      <link>/http-rider-docs/docs/releases/release-1.0/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/releases/release-1.0/</guid>
+      <guid>/http-rider-docs/docs/releases/release-1.0/</guid>
       <description>
         
         
