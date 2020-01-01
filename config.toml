@@ -54,7 +54,7 @@ id = "UA-00000000-0"
 [languages]
 [languages.en]
 title = "HttpRider"
-description = "Simple and Powerful Desktop API Client"
+description = "Simple and Powerful Cross-Platform Desktop API Client"
 languageName ="English"
 
 time_format_default = "02.01.2006"
