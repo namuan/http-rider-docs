@@ -16,13 +16,25 @@
     <item>
       <title>Docs: Installation</title>
       <link>/http-rider-docs/docs/getting-started/installation/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/http-rider-docs/docs/getting-started/installation/</guid>
       <description>
         
         
-        
+        &lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
+&lt;p&gt;Download the latest release from &lt;code&gt;https://github.com/namuan/http-rider/archive/master.zip&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;macosx--linux&#34;&gt;MacOSX / Linux&lt;/h4&gt;
+&lt;p&gt;Unzip the folder and run the following commands from the command line&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cd http-rider-master # Unzipped folder name
+$ python3 --version # To validate python installation
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ python3 -m pip install -r requirements.txt
+$ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.py
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
+&lt;p&gt;Todo&lt;/p&gt;
+
       </description>
     </item>
     
