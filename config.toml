@@ -27,6 +27,7 @@ pygmentsUseClassic = false
 # See https://help.farbox.com/pygments.html
 pygmentsStyle = "tango"
 
+# Make sure that static items are referenced correctly with baseURL
 canonifyURLs = true
 
 # Configure how URLs look like per section.
