@@ -154,19 +154,29 @@
       <description>
         
         
-        &lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
+        &lt;h4 id=&#34;macosx--linux&#34;&gt;MacOSX / Linux&lt;/h4&gt;
+&lt;p&gt;Download and install the latest release from&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;https://github.com/namuan/http-rider-osx/releases/latest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Open the DMG file downloaded and drag httprider.app to the Applications folder&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/httprider-dmg.png&#34; alt=&#34;DMG Installation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As the application is not available on AppStore, you may have to accept manually that you&#39;d like to open this app.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Go to Mac Preferences&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And click &amp;ldquo;Open Anyway&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
+&lt;p&gt;Todo&lt;/p&gt;
+&lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
+&lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
 &lt;p&gt;Download the latest release from &lt;code&gt;https://github.com/namuan/http-rider/archive/master.zip&lt;/code&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;macosx--linux&#34;&gt;MacOSX / Linux&lt;/h4&gt;
-&lt;p&gt;Unzip the folder and run the following commands from the command line&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ cd http-rider-master # Unzipped folder name
 $ python3 --version # To validate python installation
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ python3 -m pip install -r requirements.txt
 $ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.py
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
-&lt;p&gt;Todo&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     

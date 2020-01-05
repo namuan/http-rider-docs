@@ -30,7 +30,7 @@
 <meta itemprop="description" content="Instructions to installing HttpRider on different systems.
 ">
 <meta itemprop="dateModified" content="2020-01-03T10:30:51&#43;00:00" />
-<meta itemprop="wordCount" content="77">
+<meta itemprop="wordCount" content="115">
 
 
 
@@ -375,19 +375,29 @@ if (!doNotTrack) {
 <div class="td-content">
 	<h1>Installation</h1>
 	<div class="lead">Instructions to installing HttpRider on different systems.</div>
-	<p>It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.</p>
+	<h4 id="macosx--linux">MacOSX / Linux</h4>
+<p>Download and install the latest release from</p>
+<p><a href="https://github.com/namuan/http-rider-osx/releases/latest">https://github.com/namuan/http-rider-osx/releases/latest</a></p>
+<p>Open the DMG file downloaded and drag httprider.app to the Applications folder</p>
+<p><img src="/images/httprider-dmg.png" alt="DMG Installation"></p>
+<p>As the application is not available on AppStore, you may have to accept manually that you'd like to open this app.</p>
+<p><img src="/images/httprider-installation-warning.png" alt="Mac Warning"></p>
+<p>Go to Mac Preferences</p>
+<p><img src="/images/system-pref-security.png" alt="Mac Preferences"></p>
+<p>And click &ldquo;Open Anyway&rdquo;</p>
+<p><img src="/images/security-open-anyway.png" alt="Open Anyway"></p>
+<h4 id="windows">Windows</h4>
+<p>Todo</p>
+<h4 id="linux">Linux</h4>
+<p>It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.</p>
 <p>Download the latest release from <code>https://github.com/namuan/http-rider/archive/master.zip</code>.</p>
-<h4 id="macosx--linux">MacOSX / Linux</h4>
-<p>Unzip the folder and run the following commands from the command line</p>
 <pre><code>$ cd http-rider-master # Unzipped folder name
 $ python3 --version # To validate python installation
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ python3 -m pip install -r requirements.txt
 $ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;&amp; python3 httprider/main.py
-</code></pre><h4 id="windows">Windows</h4>
-<p>Todo</p>
-
+</code></pre>
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified 03.01.2020: <a  href="https://github.com/namuan/http-rider-docs/commit/7aa7d439f6998edbadac7ce7514a4cb1f6d59c37">Updated docs (7aa7d43)</a>
