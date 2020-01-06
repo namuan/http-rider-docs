@@ -7,7 +7,6 @@
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="/http-rider-docs/http-rider-docs/docs/releases/index.xml">
 
 
 <link rel="shortcut icon" href="/http-rider-docs/favicons/favicon.ico" >
@@ -21,17 +20,23 @@
 <link rel="icon" type="image/png" href="/http-rider-docs/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/http-rider-docs/favicons/android-192x192.png" sizes="192x192">
 
-<title>Releases | HttpRider</title><meta property="og:title" content="Releases" />
-<meta property="og:description" content="Release notes
+<title>How to do fuzz testing | HttpRider</title><meta property="og:title" content="How to do fuzz testing" />
+<meta property="og:description" content="How do you fuzz test API?
 " />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/http-rider-docs/docs/releases/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/http-rider-docs/docs/how-tos/i_fuzz_test_apis/" />
 <meta property="og:site_name" content="HttpRider" />
-<meta itemprop="name" content="Releases">
-<meta itemprop="description" content="Release notes
-"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Releases"/>
-<meta name="twitter:description" content="Release notes
+<meta itemprop="name" content="How to do fuzz testing">
+<meta itemprop="description" content="How do you fuzz test API?
+">
+
+<meta itemprop="wordCount" content="0">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to do fuzz testing"/>
+<meta name="twitter:description" content="How do you fuzz test API?
 "/>
 
 
@@ -61,9 +66,9 @@ if (!doNotTrack) {
   crossorigin="anonymous"></script>
 
 
-    <title>Releases | HttpRider</title>
+    <title>How to do fuzz testing | HttpRider</title>
   </head>
-  <body class="td-section">
+  <body class="td-page">
     <header>
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
@@ -172,10 +177,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/http-rider-docs/docs/how-tos/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">How Tos</a>
+    <a  href="/http-rider-docs/docs/how-tos/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">How Tos</a>
   </li>
   <ul>
-    <li class="collapse " id="docs-how-tos">
+    <li class="collapse show" id="docs-how-tos">
       
       
       
@@ -224,7 +229,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-how-tos-i-fuzz-test-apis" href="/http-rider-docs/docs/how-tos/i_fuzz_test_apis/">API fuzz testing</a>
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docs-how-tos-i-fuzz-test-apis" href="/http-rider-docs/docs/how-tos/i_fuzz_test_apis/">API fuzz testing</a>
       
       
       
@@ -278,10 +283,10 @@ if (!doNotTrack) {
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/http-rider-docs/docs/releases/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Releases</a>
+    <a  href="/http-rider-docs/docs/releases/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Releases</a>
   </li>
   <ul>
-    <li class="collapse show" id="docs-releases">
+    <li class="collapse " id="docs-releases">
       
       
       
@@ -321,8 +326,8 @@ if (!doNotTrack) {
 
 
 
-<a href="https://github.com/namuan/http-rider-docs/edit/master/content/en/docs/releases/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/namuan/http-rider-docs/issues/new?title=Releases" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href="https://github.com/namuan/http-rider-docs/edit/master/content/en/docs/how-tos/i_fuzz_test_apis.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/namuan/http-rider-docs/issues/new?title=How%20to%20do%20fuzz%20testing" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 
 
 <a href="https://github.com/namuan/http-rider/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
@@ -348,6 +353,9 @@ if (!doNotTrack) {
 
 
 
+
+
+
 <li class="breadcrumb-item" >
 	<a href="/http-rider-docs/http-rider-docs/docs/">Documentation</a>
 </li>
@@ -355,8 +363,15 @@ if (!doNotTrack) {
 
 
 
+<li class="breadcrumb-item" >
+	<a href="/http-rider-docs/http-rider-docs/docs/how-tos/">How Tos</a>
+</li>
+
+
+
+
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="/http-rider-docs/http-rider-docs/docs/releases/">Releases</a>
+	<a href="/http-rider-docs/http-rider-docs/docs/how-tos/i_fuzz_test_apis/">API fuzz testing</a>
 </li>
 
 	</ol>
@@ -364,67 +379,15 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>Releases</h1>
-	<div class="lead">Release notes</div>
+	<h1>How to do fuzz testing</h1>
+	<div class="lead">How do you fuzz test API?</div>
 	
-        <div class="section-index">
-    
-    
-    
-    
-    <hr class="panel-line">
-        
-            
-        
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/http-rider-docs/docs/releases/release-1.0/">Release 1.0</a>
-                    </h5>
-                    <p>Changelog for Release 1.0</p>
-                </div>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    
-</div>
-
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified 01.01.0001
 </div>
 </div>
+
 
           </main>
         </div>

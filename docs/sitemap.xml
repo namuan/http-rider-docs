@@ -65,6 +65,10 @@
   </url>
   
   <url>
+    <loc>/http-rider-docs/docs/how-tos/i_fuzz_test_apis/</loc>
+  </url>
+  
+  <url>
     <loc>/http-rider-docs/docs/how-tos/h_mocking_apis/</loc>
     <lastmod>2020-01-03T10:30:51+00:00</lastmod>
   </url>
