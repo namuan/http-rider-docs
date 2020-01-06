@@ -3,8 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/a_http-exchanges/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/005_http-exchanges/</loc>
   </url>
   
   <url>
@@ -21,13 +20,11 @@
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/b_project-workspaces/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/010_project-workspaces/</loc>
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/c_environment-variables/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/015_environment-variables/</loc>
   </url>
   
   <url>
@@ -36,8 +33,7 @@
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/d_fake-data/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/020_fake-data/</loc>
   </url>
   
   <url>
@@ -46,8 +42,7 @@
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/e_api_request_chaining/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/025_api_request_chaining/</loc>
   </url>
   
   <url>
@@ -55,26 +50,23 @@
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/f_api_request_labelling/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/030_api_request_labelling/</loc>
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/g_api_assertions/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/035_api_assertions/</loc>
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/how-tos/i_fuzz_test_apis/</loc>
-  </url>
-  
-  <url>
-    <loc>/http-rider-docs/docs/how-tos/h_mocking_apis/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <loc>/http-rider-docs/docs/how-tos/040_mocking_apis/</loc>
   </url>
   
   <url>
     <loc>/http-rider-docs/docs/releases/</loc>
+  </url>
+  
+  <url>
+    <loc>/http-rider-docs/docs/how-tos/045_fuzz_test_apis/</loc>
   </url>
   
   <url>
@@ -89,7 +81,7 @@
   
   <url>
     <loc>/http-rider-docs/docs/getting-started/quick-start/</loc>
-    <lastmod>2020-01-03T10:30:51+00:00</lastmod>
+    <lastmod>2020-01-06T15:57:14+00:00</lastmod>
   </url>
   
 </urlset>
