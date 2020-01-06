@@ -22,10 +22,12 @@
       <description>
         
         
-        &lt;p&gt;HttpRider stores all the request/response (Http exchange) made for an API.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/005/httprider-exchange-history.gif&#34; alt=&#34;httprider-exchange-history&#34;&gt;&lt;/p&gt;
-&lt;p&gt;At the moment, you can view the last 10 exchanges but clicking on any of the previous exchange button.&lt;/p&gt;
+        &lt;p&gt;HttpRider stores all the request/response (Http exchange) made for an API.
+You can find it in the top right corner of the window.
+Due to space limitation, you can only view the last 10 exchanges but clicking on any of the previous exchange button.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/005/httprider-exchange-history.png&#34; alt=&#34;httprider-exchange-history&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is a quick demo of working with Http exchange history.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/005/httprider-exchange-history.gif&#34; alt=&#34;httprider-exchange-history&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
