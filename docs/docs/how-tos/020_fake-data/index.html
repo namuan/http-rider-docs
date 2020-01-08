@@ -25,12 +25,12 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/http-rider-docs/docs/how-tos/020_fake-data/" />
-<meta property="article:modified_time" content="2020-01-06T16:02:14+00:00" /><meta property="og:site_name" content="HttpRider" />
+<meta property="article:modified_time" content="2020-01-08T19:44:14+00:00" /><meta property="og:site_name" content="HttpRider" />
 <meta itemprop="name" content="How to work with variables with fake data variables">
 <meta itemprop="description" content="How do you define variables and initialise with fake data?
 ">
-<meta itemprop="dateModified" content="2020-01-06T16:02:14&#43;00:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="dateModified" content="2020-01-08T19:44:14&#43;00:00" />
+<meta itemprop="wordCount" content="107">
 
 
 
@@ -381,10 +381,20 @@ if (!doNotTrack) {
 <div class="td-content">
 	<h1>How to work with variables with fake data variables</h1>
 	<div class="lead">How do you define variables and initialise with fake data?</div>
+	<p>HttpRider provides an easy way to add Fake generated data in your API requests.
+It uses the <a href="https://addurlforpythonfakerlibraryhere.com">Faker</a> library to generate fake data.
+Fake data can be inserted in the request header, query params, form params or body as part of JSON request.</p>
+<p>You can either press <code>$</code> and then type <code>data</code> which should open up the Fake data dialog.</p>
+<p><img src="/http-rider-docs/images/020/httprider-fake-dialog-key-shortcut.png" alt="Fake Data Dialog Keyboard Shortcut"></p>
+<p>Another way is to right click and select <code>Fake Data</code> from the list.</p>
+<p><img src="/http-rider-docs/images/020/httprider-fake-dialog-context-menu.png" alt="Fake Data Dialog Context Menu"></p>
+<p>Currently, you can generate fake data for some common elements with support for more options is in the roadmap.
+When selected, it'll insert a function in-place to generate the dynamic value on each request.</p>
+<p><img src="/http-rider-docs/images/020/httprider-use-fake-data-generator.gif" alt="Using Fake Data Generator"></p>
+
 	
 	
-	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 06.01.2020: <a  href="https://github.com/namuan/http-rider-docs/commit/1562ed695b3c3686df16c2f090ce9a12bff6bed2">Updated docs (1562ed6)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 08.01.2020: <a  href="https://github.com/namuan/http-rider-docs/commit/f9e170ff37369a787eea802c6235602bcb37d4c5">Added docs for generating Fake data (f9e170f)</a>
 </div>
 </div>
 

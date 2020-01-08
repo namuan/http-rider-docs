@@ -25,12 +25,12 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/http-rider-docs/docs/how-tos/015_environment-variables/" />
-<meta property="article:modified_time" content="2020-01-06T16:02:14+00:00" /><meta property="og:site_name" content="HttpRider" />
+<meta property="article:modified_time" content="2020-01-08T19:28:56+00:00" /><meta property="og:site_name" content="HttpRider" />
 <meta itemprop="name" content="How to work with environment variables">
 <meta itemprop="description" content="How do you setup environments and define variables?
 ">
-<meta itemprop="dateModified" content="2020-01-06T16:02:14&#43;00:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="dateModified" content="2020-01-08T19:28:56&#43;00:00" />
+<meta itemprop="wordCount" content="267">
 
 
 
@@ -381,10 +381,38 @@ if (!doNotTrack) {
 <div class="td-content">
 	<h1>How to work with environment variables</h1>
 	<div class="lead">How do you setup environments and define variables?</div>
+	<p>In this section, we'll look at environment variables and how you can use them in API requests.
+Here are the two options in the toolbar which deals with configuring environments and switching between environments.</p>
+<p><img src="/http-rider-docs/images/015/httprider-environments-menu.png" alt="Environments Menu"></p>
+<p>When you click on the button to configure environment, it'll open up a dialog box with all the configured environments.</p>
+<p><img src="/http-rider-docs/images/015/httprider-environments-dialog.png" alt="Enviornments Dialog"> @todo:</p>
+<p>Press ESC to close the environments dialog.</p>
+<h4 id="creating-a-new-environment-">Creating a new environment :</h4>
+<p>Click on the button to configure environments.
+If there are no environments configured then it'll create a new &lsquo;Default&rsquo; environment with a single environment variable.
+You can also click on the <code>+</code> button to add a new environment.
+The environment name is auto-generated but you can double click on the name to change it.</p>
+<p><img src="/http-rider-docs/images/015/httprider-create-new-environment.gif" alt="Adding New Environment"></p>
+<p>#### Copying an existing environment:</p>
+<p>Click on the <code>++</code> button to copy an existing environment along with all the environment variables.</p>
+<p><img src="/http-rider-docs/images/015/httprider-copy-existing-environment.gif" alt="Copy Existing Environment"></p>
+<p>#### Deleting an environment:</p>
+<p>Click on the <code>-</code> button to delete an existing environment.</p>
+<h4 id="switching-between-environments">Switching between environments:</h4>
+<p>A new environment can be selected from the main screen.</p>
+<p><img src="/http-rider-docs/images/015/httprider-switch-environment.gif" alt="Switch Environment"></p>
+<h4 id="using-environment-variables">Using environment variables:</h4>
+<p>An environment variable can be used in setting up the endpoint, any header or query param value or even in the request body.
+You can also define a dynamic enviornment variable whose value changes between each request.
+This is useful to define a random variable.</p>
+<p>Press <code>Ctrl/Cmd + G</code> or press <code>$</code> whereever you'd like to insert the value of the environment variable.
+This key combination opens up a text box which will auto filter environment variables as soon as you start typing.
+Once the environment variable is selected, press <code>Enter</code> to insert the variable.</p>
+<p><img src="/http-rider-docs/images/015/httprider-use-environment-variables.gif" alt="Using Environment Variables"></p>
+
 	
 	
-	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 06.01.2020: <a  href="https://github.com/namuan/http-rider-docs/commit/1562ed695b3c3686df16c2f090ce9a12bff6bed2">Updated docs (1562ed6)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 08.01.2020: <a  href="https://github.com/namuan/http-rider-docs/commit/2da4f518e308135ca63f4deba0833d7c0d0dce76">Added docs for using environment variables (2da4f51)</a>
 </div>
 </div>
 

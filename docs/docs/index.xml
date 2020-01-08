@@ -69,7 +69,16 @@ Due to space limitation, you can only view the last 10 exchanges but clicking on
       <description>
         
         
-        
+        &lt;p&gt;In HttpRider, you can create and save new project workspaces.
+When you start up HttpRider for the first time, it&#39;ll automatically create a temporary project file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/010/httprider-temp-project-name.png&#34; alt=&#34;Temporary Project Name&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To save a project, click on &lt;code&gt;File -&amp;gt; Save&lt;/code&gt; or press keyboard shortcut &lt;code&gt;Ctrl/Cmd + S&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/010/httprider-save-project.png&#34; alt=&#34;Save Project&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To open an existing project, click on &lt;code&gt;File -&amp;gt; Open&lt;/code&gt; or press keyboard shortcut &lt;code&gt;Ctrl/Cmd + O&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/010/httprider-open-existing-project.png&#34; alt=&#34;Open Project&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can also save a copy of the currently opened project by using &lt;code&gt;File -&amp;gt; Save As&lt;/code&gt; and give a different project name.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/010/httprider-save-as-project.png&#34; alt=&#34;Save As&#34;&gt;&lt;/p&gt;
+
       </description>
     </item>
     
@@ -82,7 +91,35 @@ Due to space limitation, you can only view the last 10 exchanges but clicking on
       <description>
         
         
-        
+        &lt;p&gt;In this section, we&#39;ll look at environment variables and how you can use them in API requests.
+Here are the two options in the toolbar which deals with configuring environments and switching between environments.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-environments-menu.png&#34; alt=&#34;Environments Menu&#34;&gt;&lt;/p&gt;
+&lt;p&gt;When you click on the button to configure environment, it&#39;ll open up a dialog box with all the configured environments.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-environments-dialog.png&#34; alt=&#34;Enviornments Dialog&#34;&gt; @todo:&lt;/p&gt;
+&lt;p&gt;Press ESC to close the environments dialog.&lt;/p&gt;
+&lt;h4 id=&#34;creating-a-new-environment-&#34;&gt;Creating a new environment :&lt;/h4&gt;
+&lt;p&gt;Click on the button to configure environments.
+If there are no environments configured then it&#39;ll create a new &amp;lsquo;Default&amp;rsquo; environment with a single environment variable.
+You can also click on the &lt;code&gt;+&lt;/code&gt; button to add a new environment.
+The environment name is auto-generated but you can double click on the name to change it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-create-new-environment.gif&#34; alt=&#34;Adding New Environment&#34;&gt;&lt;/p&gt;
+&lt;p&gt;#### Copying an existing environment:&lt;/p&gt;
+&lt;p&gt;Click on the &lt;code&gt;++&lt;/code&gt; button to copy an existing environment along with all the environment variables.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-copy-existing-environment.gif&#34; alt=&#34;Copy Existing Environment&#34;&gt;&lt;/p&gt;
+&lt;p&gt;#### Deleting an environment:&lt;/p&gt;
+&lt;p&gt;Click on the &lt;code&gt;-&lt;/code&gt; button to delete an existing environment.&lt;/p&gt;
+&lt;h4 id=&#34;switching-between-environments&#34;&gt;Switching between environments:&lt;/h4&gt;
+&lt;p&gt;A new environment can be selected from the main screen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-switch-environment.gif&#34; alt=&#34;Switch Environment&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;using-environment-variables&#34;&gt;Using environment variables:&lt;/h4&gt;
+&lt;p&gt;An environment variable can be used in setting up the endpoint, any header or query param value or even in the request body.
+You can also define a dynamic enviornment variable whose value changes between each request.
+This is useful to define a random variable.&lt;/p&gt;
+&lt;p&gt;Press &lt;code&gt;Ctrl/Cmd + G&lt;/code&gt; or press &lt;code&gt;$&lt;/code&gt; whereever you&#39;d like to insert the value of the environment variable.
+This key combination opens up a text box which will auto filter environment variables as soon as you start typing.
+Once the environment variable is selected, press &lt;code&gt;Enter&lt;/code&gt; to insert the variable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-use-environment-variables.gif&#34; alt=&#34;Using Environment Variables&#34;&gt;&lt;/p&gt;
+
       </description>
     </item>
     
@@ -95,7 +132,17 @@ Due to space limitation, you can only view the last 10 exchanges but clicking on
       <description>
         
         
-        
+        &lt;p&gt;HttpRider provides an easy way to add Fake generated data in your API requests.
+It uses the &lt;a href=&#34;https://addurlforpythonfakerlibraryhere.com&#34;&gt;Faker&lt;/a&gt; library to generate fake data.
+Fake data can be inserted in the request header, query params, form params or body as part of JSON request.&lt;/p&gt;
+&lt;p&gt;You can either press &lt;code&gt;$&lt;/code&gt; and then type &lt;code&gt;data&lt;/code&gt; which should open up the Fake data dialog.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/020/httprider-fake-dialog-key-shortcut.png&#34; alt=&#34;Fake Data Dialog Keyboard Shortcut&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Another way is to right click and select &lt;code&gt;Fake Data&lt;/code&gt; from the list.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/020/httprider-fake-dialog-context-menu.png&#34; alt=&#34;Fake Data Dialog Context Menu&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Currently, you can generate fake data for some common elements with support for more options is in the roadmap.
+When selected, it&#39;ll insert a function in-place to generate the dynamic value on each request.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/020/httprider-use-fake-data-generator.gif&#34; alt=&#34;Using Fake Data Generator&#34;&gt;&lt;/p&gt;
+
       </description>
     </item>
     
