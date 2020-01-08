@@ -18,5 +18,9 @@ hugo server
 
 ## Publishing
 
-todo
+Run the following command to generate the final site using `hugo` and then commit & push it to Github.
+
+```
+./update-docs.sh
+```
 
