@@ -13,9 +13,10 @@ Here are the two options in the toolbar which deals with configuring environment
 
 When you click on the button to configure environment, it'll open up a dialog box with all the configured environments.
 
-![Enviornments Dialog](/images/015/httprider-environments-dialog.png) @todo:
+{{% pageinfo color="primary" %}}
+Please note that pressing ESC will close the environments dialog. 
+{{% /pageinfo %}}
 
-Press ESC to close the environments dialog. 
 
 #### Creating a new environment :
 

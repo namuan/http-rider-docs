@@ -7,7 +7,7 @@ description: >
 ---
 
 HttpRider provides an easy way to add Fake generated data in your API requests.
-It uses the [Faker](https://addurlforpythonfakerlibraryhere.com) library to generate fake data.
+It uses the excellent [Faker](https://faker.readthedocs.io/en/master/) library to generate fake data.
 Fake data can be inserted in the request header, query params, form params or body as part of JSON request.
 
 You can either press `$` and then type `data` which should open up the Fake data dialog.

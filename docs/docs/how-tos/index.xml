@@ -67,8 +67,13 @@ When you start up HttpRider for the first time, it&#39;ll automatically create a
 Here are the two options in the toolbar which deals with configuring environments and switching between environments.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-environments-menu.png&#34; alt=&#34;Environments Menu&#34;&gt;&lt;/p&gt;
 &lt;p&gt;When you click on the button to configure environment, it&#39;ll open up a dialog box with all the configured environments.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/015/httprider-environments-dialog.png&#34; alt=&#34;Enviornments Dialog&#34;&gt; @todo:&lt;/p&gt;
-&lt;p&gt;Press ESC to close the environments dialog.&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Please note that pressing ESC will close the environments dialog.&lt;/p&gt;
+
+&lt;/div&gt;
+
 &lt;h4 id=&#34;creating-a-new-environment-&#34;&gt;Creating a new environment :&lt;/h4&gt;
 &lt;p&gt;Click on the button to configure environments.
 If there are no environments configured then it&#39;ll create a new &amp;lsquo;Default&amp;rsquo; environment with a single environment variable.
@@ -105,7 +110,7 @@ Once the environment variable is selected, press &lt;code&gt;Enter&lt;/code&gt; 
         
         
         &lt;p&gt;HttpRider provides an easy way to add Fake generated data in your API requests.
-It uses the &lt;a href=&#34;https://addurlforpythonfakerlibraryhere.com&#34;&gt;Faker&lt;/a&gt; library to generate fake data.
+It uses the excellent &lt;a href=&#34;https://faker.readthedocs.io/en/master/&#34;&gt;Faker&lt;/a&gt; library to generate fake data.
 Fake data can be inserted in the request header, query params, form params or body as part of JSON request.&lt;/p&gt;
 &lt;p&gt;You can either press &lt;code&gt;$&lt;/code&gt; and then type &lt;code&gt;data&lt;/code&gt; which should open up the Fake data dialog.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/020/httprider-fake-dialog-key-shortcut.png&#34; alt=&#34;Fake Data Dialog Keyboard Shortcut&#34;&gt;&lt;/p&gt;
