@@ -26,13 +26,13 @@
 &lt;p&gt;Download and install the latest release from&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;https://github.com/namuan/http-rider-osx/releases/latest&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Open the DMG file downloaded and drag httprider.app to the Applications folder&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/httprider-dmg.png&#34; alt=&#34;DMG Installation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/httprider-dmg.png&#34; alt=&#34;DMG Installation&#34;&gt;&lt;/p&gt;
 &lt;p&gt;As the application is not available on AppStore, you may have to accept manually that you&#39;d like to open this app.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Go to Mac Preferences&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
 &lt;p&gt;And click &amp;ldquo;Open Anyway&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
 &lt;p&gt;Todo&lt;/p&gt;
 &lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
@@ -58,6 +58,39 @@ $ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.
         
         
         &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jtoxr10SU6A&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/jtoxr10SU6A/0.jpg&#34; alt=&#34;HttpRider Intro&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Configuration Reference</title>
+      <link>/http-rider-docs/docs/getting-started/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/http-rider-docs/docs/getting-started/configuration/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The configuration dialog is opened by clicking the icon on the top right corner of the window.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/150/httprider-configuration.png&#34; alt=&#34;Configuration Toolbar Button&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once clicked, it&#39;ll open up the configuration dialog.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/150/httprider-config-dialog.png&#34; alt=&#34;Configuration Dialog&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;requests&#34;&gt;Requests&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Timeout (secs)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Number of seconds HttpRider waits for the response before timing out and closing the connection.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Follow Redirects&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If checked, HttpRider will automatically follow if the server returns an HTTP status of &lt;code&gt;301&lt;/code&gt; or &lt;code&gt;302&lt;/code&gt; or &lt;code&gt;307&lt;/code&gt;.
+In case of either of these HTTP statuses, the response location header contains the link to follow.&lt;/p&gt;
+&lt;p&gt;If the configuration is checked, HttpRider will only display the last request in the Http exchange view.&lt;/p&gt;
+&lt;h4 id=&#34;http-proxy&#34;&gt;HTTP Proxy&lt;/h4&gt;
+&lt;p&gt;If configured, HttpRider will use the available proxy to send the request.
+Sometimes, it is not possible to configure SSL with the proxy so you can disable verification if required.&lt;/p&gt;
+&lt;h4 id=&#34;updates&#34;&gt;Updates&lt;/h4&gt;
+&lt;p&gt;Checks if a new version of HttpRider is available on start up.
+If a new version is available then you&#39;ll see an option to download the new version on the main window.&lt;/p&gt;
+&lt;h4 id=&#34;printshare&#34;&gt;Print/Share&lt;/h4&gt;
+&lt;p&gt;Configures the server to use when sharing API request/responses.
+Please check &lt;a href=&#34;/http-rider-docs/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
 
       </description>
     </item>
