@@ -1,7 +1,5 @@
 ---
-title: "How to work with mocking APIs"
+title: "How do you define mock API responses"
 linkTitle: "API mocking"
 weight: 40
-description: >
-  How do you define mock API responses?
 ---

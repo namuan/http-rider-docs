@@ -1,7 +1,5 @@
 ---
-title: "How to work with API request labelling"
-linkTitle: "Group API(s) by labelling"
+title: "How do you group API(s) using labels"
+linkTitle: "Group API(s) by labels"
 weight: 30
-description: >
-  How do you group multiple APIs using labels?
 ---
