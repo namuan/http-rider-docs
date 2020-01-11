@@ -132,7 +132,12 @@ When selected, it&#39;ll insert a function in-place to generate the dynamic valu
       <description>
         
         
-        
+        &lt;p&gt;#### How it works?&lt;/p&gt;
+&lt;h4 id=&#34;running-multiple-apis&#34;&gt;Running multiple APIs&lt;/h4&gt;
+&lt;h4 id=&#34;disable-apis&#34;&gt;Disable APIs&lt;/h4&gt;
+&lt;h4 id=&#34;extracting-variables-from-api-request&#34;&gt;Extracting variables from API request&lt;/h4&gt;
+&lt;h4 id=&#34;using-variables-to-chain-apis&#34;&gt;Using variables to chain APIs&lt;/h4&gt;
+
       </description>
     </item>
     
@@ -145,7 +150,11 @@ When selected, it&#39;ll insert a function in-place to generate the dynamic valu
       <description>
         
         
-        
+        &lt;h4 id=&#34;labelling-apis&#34;&gt;Labelling APIs&lt;/h4&gt;
+&lt;h4 id=&#34;filtering-apis-by-label&#34;&gt;Filtering APIs by Label&lt;/h4&gt;
+&lt;h4 id=&#34;added-label-description&#34;&gt;Added Label description&lt;/h4&gt;
+&lt;h4 id=&#34;run-apis-by-label&#34;&gt;Run APIs by Label&lt;/h4&gt;
+
       </description>
     </item>
     
@@ -158,7 +167,12 @@ When selected, it&#39;ll insert a function in-place to generate the dynamic valu
       <description>
         
         
-        
+        &lt;h4 id=&#34;how-it-works&#34;&gt;How it works?&lt;/h4&gt;
+&lt;p&gt;#### Assertions Dialog reference&lt;/p&gt;
+&lt;p&gt;#### Extracting and naming variables&lt;/p&gt;
+&lt;h4 id=&#34;using-variables&#34;&gt;Using variables&lt;/h4&gt;
+&lt;h4 id=&#34;adding-custom-jsonpath-expressions&#34;&gt;Adding custom JsonPath expressions&lt;/h4&gt;
+
       </description>
     </item>
     
@@ -171,7 +185,11 @@ When selected, it&#39;ll insert a function in-place to generate the dynamic valu
       <description>
         
         
-        
+        &lt;h4 id=&#34;how-it-works&#34;&gt;How it works?&lt;/h4&gt;
+&lt;h4 id=&#34;creating-a-simple-mock-response&#34;&gt;Creating a simple mock response&lt;/h4&gt;
+&lt;h4 id=&#34;using-variables-in-mocked-responses&#34;&gt;Using variables in mocked responses&lt;/h4&gt;
+&lt;h4 id=&#34;dynamic-mocks-using-request-variables&#34;&gt;Dynamic mocks using request variables&lt;/h4&gt;
+
       </description>
     </item>
     
@@ -184,7 +202,9 @@ When selected, it&#39;ll insert a function in-place to generate the dynamic valu
       <description>
         
         
-        
+        &lt;p&gt;#### How it works?&lt;/p&gt;
+&lt;h4 id=&#34;testing-an-api&#34;&gt;Testing an API&lt;/h4&gt;
+
       </description>
     </item>
     
