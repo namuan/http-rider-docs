@@ -46,21 +46,6 @@ Due to space limitation, you can only view the last 10 exchanges but clicking on
     </item>
     
     <item>
-      <title>Docs: Release 1.0</title>
-      <link>/http-rider-docs/docs/releases/release-1.0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/http-rider-docs/docs/releases/release-1.0/</guid>
-      <description>
-        
-        
-        &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
-&lt;h4 id=&#34;fixes&#34;&gt;Fixes&lt;/h4&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: How to work with projects</title>
       <link>/http-rider-docs/docs/how-tos/010_project-workspaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -332,6 +317,144 @@ If a new version is available then you&#39;ll see an option to download the new 
 &lt;h4 id=&#34;printshare&#34;&gt;Print/Share&lt;/h4&gt;
 &lt;p&gt;Configures the server to use when sharing API request/responses.
 Please check &lt;a href=&#34;/http-rider-docs/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Shortcuts Reference</title>
+      <link>/http-rider-docs/docs/getting-started/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/http-rider-docs/docs/getting-started/shortcuts/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Few Important Shortcuts&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ctrl/Cmd + G&lt;/strong&gt; : Insert environment or other variables in a request.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ctrl/Cmd + S&lt;/strong&gt; : Saves the project&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;working-with-projects&#34;&gt;Working with Projects&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + N&lt;/td&gt;
+&lt;td&gt;New Project&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + O&lt;/td&gt;
+&lt;td&gt;Open Project&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + S&lt;/td&gt;
+&lt;td&gt;Save Project&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;running-and-exporting-requests&#34;&gt;Running and Exporting Request(s)&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + Enter&lt;/td&gt;
+&lt;td&gt;Send Request&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + Ctrl/Cmd + Enter&lt;/td&gt;
+&lt;td&gt;Send All Requests&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + E&lt;/td&gt;
+&lt;td&gt;Export Request&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Short + Ctrl/Cmd + E&lt;/td&gt;
+&lt;td&gt;Export All Requests&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;working-with-http-request&#34;&gt;Working with HTTP Request&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + G&lt;/td&gt;
+&lt;td&gt;Insert Variable&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + M&lt;/td&gt;
+&lt;td&gt;Select HTTP Method&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl/Cmd + L&lt;/td&gt;
+&lt;td&gt;Select HTTP URL&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt + D&lt;/td&gt;
+&lt;td&gt;Select Description Tab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt + H&lt;/td&gt;
+&lt;td&gt;Select Headers Tab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt + Q&lt;/td&gt;
+&lt;td&gt;Select Queries Tab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt + F&lt;/td&gt;
+&lt;td&gt;Select Form Params Tab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt + B&lt;/td&gt;
+&lt;td&gt;Select Request Body Tab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt + M&lt;/td&gt;
+&lt;td&gt;Select Mocked Response Tab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
       </description>
     </item>

@@ -12,10 +12,6 @@
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/releases/release-1.0/</loc>
-  </url>
-  
-  <url>
     <loc>/http-rider-docs/docs/getting-started/</loc>
     <lastmod>2020-01-03T10:30:51+00:00</lastmod>
   </url>
@@ -70,10 +66,6 @@
   </url>
   
   <url>
-    <loc>/http-rider-docs/docs/releases/</loc>
-  </url>
-  
-  <url>
     <loc>/http-rider-docs/docs/how-tos/045_fuzz_test_apis/</loc>
     <lastmod>2020-01-11T12:14:56+00:00</lastmod>
   </url>
@@ -96,6 +88,10 @@
   <url>
     <loc>/http-rider-docs/docs/getting-started/configuration/</loc>
     <lastmod>2020-01-11T11:52:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/http-rider-docs/docs/getting-started/shortcuts/</loc>
   </url>
   
   <url>
