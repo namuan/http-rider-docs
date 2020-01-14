@@ -6,3 +6,5 @@ tech-doc-hugo
 
 .idea/
 themes/docsy
+# Local Netlify folder
+.netlify
