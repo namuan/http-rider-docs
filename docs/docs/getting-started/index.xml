@@ -90,7 +90,7 @@ Sometimes, it is not possible to configure SSL with the proxy so you can disable
 If a new version is available then you&#39;ll see an option to download the new version on the main window.&lt;/p&gt;
 &lt;h4 id=&#34;printshare&#34;&gt;Print/Share&lt;/h4&gt;
 &lt;p&gt;Configures the server to use when sharing API request/responses.
-Please check &lt;a href=&#34;/http-rider-docs/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
+Please check &lt;a href=&#34;/http-rider-docs/http-rider-docs/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
 
       </description>
     </item>
