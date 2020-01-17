@@ -9,6 +9,8 @@ Few Important Shortcuts
 
 **Ctrl/Cmd + G** : Insert environment or other variables in a request. 
 
+**Ctrl/Cmd + Enter** : Sends currently select request
+
 **Ctrl/Cmd + S** : Saves the project
 {{% /pageinfo %}}
 

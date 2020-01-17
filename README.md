@@ -13,14 +13,20 @@ git clone --recurse-submodules --depth 1 https://github.com/namuan/http-rider-do
 Once you've cloned the site repo, from the repo root folder, run:
 
 ```
-hugo server
+make serve
 ```
 
-## Publishing
+## Generate Docs and Commit to Github
 
 Run the following command to generate the final site using `hugo` and then commit & push it to Github.
 
 ```
-./update-docs.sh
+make commit-all
+```
+
+## Publishing to Netlify
+
+```
+make stage
 ```
 

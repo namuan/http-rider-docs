@@ -109,6 +109,7 @@ Please check &lt;a href=&#34;/docs/how-tos/050_sharing_api_exchange/&#34;&gt;her
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
 &lt;p&gt;Few Important Shortcuts&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ctrl/Cmd + G&lt;/strong&gt; : Insert environment or other variables in a request.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ctrl/Cmd + Enter&lt;/strong&gt; : Sends currently select request&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ctrl/Cmd + S&lt;/strong&gt; : Saves the project&lt;/p&gt;
 
 &lt;/div&gt;
