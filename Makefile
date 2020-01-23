@@ -13,15 +13,15 @@ commit-all: generate ## Push generated documentation to Github
 	git commit -m "Updated docs"
 	git push origin master
 
-serve: ## Serve site locally
+index: generate ## Generate index
+	npm run index
+
+serve: index ## Serve site locally
 	open -a Firefox.app http://localhost:1313
 	hugo server --disableFastRender
 
-stage: ## Deploys to Netlify staging environment
+stage: index ## Deploys to Netlify staging environment
 	netlify deploy --dir=docs
-
-prod: ## Deploys to Netlify Live environment
-	netlify deploy --prod
 
 .PHONY: help
 .DEFAULT_GOAL := help
