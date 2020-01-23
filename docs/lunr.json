@@ -1,0 +1,98 @@
+[
+    {
+        "uri": "/en/_index",
+        "title": "HttpRider",
+        "content": "\n{{< blocks/cover title=\"Simple and Powerful Cross-Platform Desktop API Client. Alternative to Postman, Paw.\" >}}\n\n\t\n\t\tLearn More \n\t\n\t\n\t\tDownload \n\t\n\t\n\t\t\n\t\n\n{{< /blocks/cover >}}\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/_index",
+        "content": "\n---\ntitle: \"Documentation\"\nlinkTitle: \"Documentation\"\nweight: 20\nmenu:\n  main:\n    weight: 20\n---\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/generators/_index",
+        "content": "\n---\ntitle: \"Code Generators\"\nlinkTitle: \"Code Generators\"\nweight: 30\ndescription: \n  How to generate code with HttpRider\n---\n\nSelect the API request and Press Ctrl/Cmd + E or the export button on the toolbar to open up the code generator dialog.\n\n{{% pageinfo color=\"secondary\" %}}\nSome of the code generators rely on the response so please make sure that you have successfully run an API. \nIf the backend service is not ready then you can use Mocked Response to generate a fake response.\n{{% /pageinfo %}}\n\nThe code generator dialog will generate code for the selected item but you can easily change it.\n\nCopy button will copy the code to the clipboard.\nExport button will export the code to a file.\n\nIt is also possible to export multiple APIs by pressing Shift + Ctrl/Cmd + E or the following button on the toolbar.\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/getting-started/_index",
+        "content": "---\ntitle: \"Getting Started\"\nlinkTitle: \"Getting Started\"\nweight: 10\ndescription: \n  Quick start tutorial, Installation, Configuration and Shortcuts reference\n---\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/getting-started/configuration",
+        "content": "---\ntitle: \"Configuration Reference\"\nlinkTitle: \"Configuration\"\nweight: 150\n---\n\nThe configuration dialog is opened by clicking the icon on the top right corner of the window.\n\nOnce clicked, it'll open up the configuration dialog.\n\nRequests\n\nTimeout (secs)\n\nNumber of seconds HttpRider waits for the response before timing out and closing the connection.\n\nFollow Redirects\n\nIf checked, HttpRider will automatically follow if the server returns an HTTP status of 301 or 302 or 307.\nIn case of either of these HTTP statuses, the response location header contains the link to follow.\n\nIf the configuration is checked, HttpRider will only display the last request in the Http exchange view.\n\n HTTP Proxy\n\nIf configured, HttpRider will use the available proxy to send the request. \nSometimes, it is not possible to configure SSL with the proxy so you can disable verification if required.\n\nUpdates\n\nChecks if a new version of HttpRider is available on start up. \nIf a new version is available then you'll see an option to download the new version on the main window.\n\n Print/Share\n\nConfigures the server to use when sharing API request/responses. \nPlease check here for more details.",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/getting-started/installation",
+        "content": "---\ntitle: \"Installation\"\nlinkTitle: \"Installation\"\nweight: 50\ndescription: \n  Instructions to installing HttpRider on different systems.\n---\n\nMacOSX / Linux\nDownload and install the latest release from\n\nhttps://github.com/namuan/http-rider-osx/releases/latest\n\nOpen the DMG file downloaded and drag httprider.app to the Applications folder\n\nAs the application is not available on AppStore, you may have to accept manually that you'd like to open this app.\n\nGo to Mac Preferences\n\nAnd click \"Open Anyway\"\n\n Windows\n\nTodo\n\nLinux\n\nIt is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.\n\nDownload the latest release from https://github.com/namuan/http-rider/archive/master.zip. \n\n$ cd http-rider-master  Unzipped folder name\n$ python3 --version # To validate python installation\n$ python3 -m venv venv\n$ source venv/bin/activate\n$ python3 -m pip install -r requirements.txt\n$ export PYTHONPATH=pwd:$PYTHONPATH && python3 httprider/main.py\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/getting-started/quick-start",
+        "content": "---\ntitle: \"Quick Start\"\nlinkTitle: \"Quick Start\"\nweight: 100\ndescription: \n  A brief guide to testing Github APIs using HttpRider\n---\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/getting-started/shortcuts",
+        "content": "---\ntitle: \"Shortcuts Reference\"\nlinkTitle: \"Shortcuts\"\nweight: 200\n---\n\n{{% pageinfo color=\"primary\" %}}\nFew Important Shortcuts\n\nCtrl/Cmd + G : Insert environment or other variables in a request. \n\nCtrl/Cmd + Enter : Sends currently select request\n\nCtrl/Cmd + S : Saves the project\n{{% /pageinfo %}}\n\nWorking with Projects\n\n|   Shortcut   | Description  |     |\n| ------------ | ------------ | --- |\n| Ctrl/Cmd + N | New Project  |     |\n| Ctrl/Cmd + O | Open Project |     |\n| Ctrl/Cmd + S | Save Project |     |\n\n Running and Exporting Request(s)\n\n|         Shortcut         |     Description     |     |\n| ------------------------ | ------------------- | --- |\n| Ctrl/Cmd + Enter         | Send Request        |     |\n| Shift + Ctrl/Cmd + Enter | Send All Requests   |     |\n| Ctrl/Cmd + E             | Export Request      |     |\n| Short + Ctrl/Cmd + E     | Export All Requests |     |\n\nWorking with HTTP Request\n\n|   Shortcut   |        Description         |     |\n| ------------ | -------------------------- | --- |\n| Ctrl/Cmd + G | Insert Variable            |     |\n| Ctrl/Cmd + M | Select HTTP Method         |     |\n| Ctrl/Cmd + L | Select HTTP URL            |     |\n| Alt + D      | Select Description Tab     |     |\n| Alt + H      | Select Headers Tab         |     |\n| Alt + Q      | Select Queries Tab         |     |\n| Alt + F      | Select Form Params Tab     |     |\n| Alt + B      | Select Request Body Tab    |     |\n| Alt + M      | Select Mocked Response Tab |     |\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/_index",
+        "content": "---\ntitle: \"How Tos\"\nlinkTitle: \"How Tos\"\nweight: 20\ndescription: \n  List of different features that can be performed with HttpRider\n---\n\nPlease make sure that you go through the Quick Start section as the following items will assume familiarity with making API requests using HttpRider.",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/005_http-exchanges",
+        "content": "---\ntitle: \"How to navigate between HTTP requests history\"\nlinkTitle: \"HTTP request/response history\"\nweight: 5\n---\n\nHttpRider stores all the request/response (Http exchange) made for an API.\nYou can find it in the top right corner of the window.\nDue to space limitation, you can only view the last 10 exchanges but clicking on any of the previous exchange button.\n\nHere is a quick demo of working with Http exchange history.\n \n \n\n \n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/010_project-workspaces",
+        "content": "---\ntitle: \"How to work with projects\"\nlinkTitle: \"Project workspaces\"\nweight: 10\ndescription: \n  How do you create/save or load projects in HttpRider?\n---\n\nIn HttpRider, you can create and save new project workspaces. \nWhen you start up HttpRider for the first time, it'll automatically create a temporary project file.\n\nTo save a project, click on File - Save or press keyboard shortcut Ctrl/Cmd + S.\n\nTo open an existing project, click on File - Open or press keyboard shortcut Ctrl/Cmd + O.\n\nYou can also save a copy of the currently opened project by using File - Save As and give a different project name.\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/015_environment-variables",
+        "content": "---\ntitle: \"How to work with environment variables\"\nlinkTitle: \"Environment and Variables\"\nweight: 15\ndescription: \n  How do you setup environments and define variables?\n---\n\nIn this section, we'll look at environment variables and how you can use them in API requests.\nHere are the two options in the toolbar which deals with configuring environments and switching between environments.\n\nWhen you click on the button to configure environment, it'll open up a dialog box with all the configured environments.\n\n{{% pageinfo color=\"primary\" %}}\nPlease note that pressing ESC will close the environments dialog. \n{{% /pageinfo %}}\n\nCreating a new environment :\n\nClick on the button to configure environments. \nIf there are no environments configured then it'll create a new 'Default' environment with a single environment variable.\nYou can also click on the + button to add a new environment.\nThe environment name is auto-generated but you can double click on the name to change it.\n\n Copying an existing environment:\n\nClick on the ++ button to copy an existing environment along with all the environment variables.\n\nDeleting an environment:\n\nClick on the - button to delete an existing environment.\n\n Switching between environments:\n\nA new environment can be selected from the main screen.\n\nUsing environment variables:\n\nAn environment variable can be used in setting up the endpoint, any header or query param value or even in the request body.\nYou can also define a dynamic enviornment variable whose value changes between each request. \nThis is useful to define a random variable.\n\nPress Ctrl/Cmd + G or press $ whereever you'd like to insert the value of the environment variable. \nThis key combination opens up a text box which will auto filter environment variables as soon as you start typing.\nOnce the environment variable is selected, press Enter to insert the variable.\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/020_fake-data",
+        "content": "---\ntitle: \"How to work with variables with fake data variables\"\nlinkTitle: \"Fake data variables\"\nweight: 20\ndescription: \n  How do you define variables and initialise with fake data?\n---\n\nHttpRider provides an easy way to add Fake generated data in your API requests.\nIt uses the excellent Faker library to generate fake data.\nFake data can be inserted in the request header, query params, form params or body as part of JSON request.\n\nYou can either press $ and then type data which should open up the Fake data dialog.\n\nAnother way is to right click and select Fake Data from the list.\n\nCurrently, you can generate fake data for some common elements with support for more options is in the roadmap.\nWhen selected, it'll insert a function in-place to generate the dynamic value on each request.\n\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/025_api_request_chaining",
+        "content": "---\ntitle: \"How to work with API request chaining\"\nlinkTitle: \"Chaining API(s)\"\nweight: 25\n---\n\nHow it works?\n\n Running multiple APIs\n\nDisable APIs\n\n Extracting variables from API request\n\nUsing variables to chain APIs",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/030_api_request_labelling",
+        "content": "---\ntitle: \"How do you group API(s) using labels\"\nlinkTitle: \"Group API(s) by labels\"\nweight: 30\n---\n\nLabelling APIs\n\n Filtering APIs by Label\n\nAdded Label description\n\n Run APIs by Label\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/035_api_assertions",
+        "content": "---\ntitle: \"How to test APIs with assertions\"\nlinkTitle: \"API testing with assertions\"\nweight: 35\n---\n\nHow it works?\n\n Assertions Dialog reference\n\nExtracting and naming variables\n\n Using variables \n\nAdding custom JsonPath expressions\n",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/040_mocking_apis",
+        "content": "---\ntitle: \"How do you define mock API responses\"\nlinkTitle: \"API mocking\"\nweight: 40\n---\n\nHow it works?\n\n Creating a simple mock response\n\nUsing variables in mocked responses\n\n Dynamic mocks using request variables",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/045_fuzz_test_apis",
+        "content": "---\ntitle: \"How to do fuzz testing\"\nlinkTitle: \"API fuzz testing\"\nweight: 45\n---\n\nHow it works?\n\n Testing an API",
+        "tags": []
+    },
+    {
+        "uri": "/en/docs/how-tos/050_sharing_api_exchange",
+        "content": "---\ntitle: \"How do you share API request/responses\"\nlinkTitle: \"API Exchange sharing\"\nweight: 50\n---\n\nYou can share the API request/response data by creating a unique link using the PrintShare service.\n\nHere is a quick demo of how the feature works.\n\nPlease see here if you want to run the server. \nOnce running, you can configure the server in the configuration.",
+        "tags": []
+    }
+]

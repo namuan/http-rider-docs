@@ -8,7 +8,7 @@ clean: ## Clean Docs folder
 generate: clean ## Generator Documentation
 	HUGO_ENV="production" hugo --gc --destination docs || exit 1
 
-commit-all: generate ## Push generated documentation to Github
+commit-all: index ## Push generated documentation to Github
 	git add -A
 	git commit -m "Updated docs"
 	git push origin master
