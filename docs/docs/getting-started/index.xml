@@ -22,9 +22,9 @@
       <description>
         
         
-        &lt;h4 id=&#34;macosx--linux&#34;&gt;MacOSX / Linux&lt;/h4&gt;
+        &lt;h4 id=&#34;macosx&#34;&gt;MacOSX&lt;/h4&gt;
 &lt;p&gt;Download and install the latest release from&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;https://github.com/namuan/http-rider-osx/releases/latest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/download/0.6.0/HttpRider-0.6.0-macOS.dmg&#34;&gt;Download for Mac&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Open the DMG file downloaded and drag httprider.app to the Applications folder&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/httprider-dmg.png&#34; alt=&#34;DMG Installation&#34;&gt;&lt;/p&gt;
 &lt;p&gt;As the application is not available on AppStore, you may have to accept manually that you&#39;d like to open this app.&lt;/p&gt;

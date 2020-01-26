@@ -6,10 +6,10 @@ description: >
   Instructions to installing HttpRider on different systems.
 ---
 
-#### MacOSX / Linux
+#### MacOSX
 Download and install the latest release from
 
-https://github.com/namuan/http-rider-osx/releases/latest
+[Download for Mac](https://github.com/namuan/http-rider-osx/releases/download/0.6.0/HttpRider-0.6.0-macOS.dmg)
 
 Open the DMG file downloaded and drag httprider.app to the Applications folder
 
