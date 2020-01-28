@@ -9,11 +9,7 @@ description: >
 #### MacOSX
 Download and install the latest release from
 
-[Download for Mac](https://github.com/namuan/http-rider-osx/releases/download/0.6.0/HttpRider-0.6.0-macOS.dmg)
-
-Open the DMG file downloaded and drag httprider.app to the Applications folder
-
-![DMG Installation](/images/gs/050/httprider-dmg.png)
+[Mac OS App](https://github.com/namuan/http-rider-osx/releases/download/0.6.1/httprider-0.6.1.zip)
 
 As the application is not available on AppStore, you may have to accept manually that you'd like to open this app.
 
@@ -29,7 +25,7 @@ And click "Open Anyway"
 
 #### Windows
 
-Todo
+[Windows App](https://github.com/namuan/http-rider-win/releases/download/0.6.1/httprider-0.6.1.zip)
 
 #### Linux
 
