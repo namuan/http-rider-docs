@@ -7,7 +7,7 @@ weight: 200
 {{% pageinfo color="primary" %}}
 Few Important Shortcuts
 
-**Ctrl/Cmd + G** : Insert environment or other variables in a request. 
+**Ctrl/Cmd + I** : Insert environment or other variables in a request. 
 
 **Ctrl/Cmd + Enter** : Sends currently select request
 
@@ -36,7 +36,7 @@ Few Important Shortcuts
 
 |   Shortcut   |        Description         |     |
 | ------------ | -------------------------- | --- |
-| Ctrl/Cmd + G | Insert Variable            |     |
+| Ctrl/Cmd + I | Insert Variable            |     |
 | Ctrl/Cmd + M | Select HTTP Method         |     |
 | Ctrl/Cmd + L | Select HTTP URL            |     |
 | Alt + D      | Select Description Tab     |     |
