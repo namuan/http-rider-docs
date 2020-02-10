@@ -32,7 +32,7 @@
     },
     {
         "uri": "/en/docs/getting-started/quick-start",
-        "content": "---\ntitle: \"Quick Start\"\nlinkTitle: \"Quick Start\"\nweight: 100\ndescription: \n  A brief guide to testing Github APIs using HttpRider\n---\n\n",
+        "content": "---\ntitle: \"Quick Start\"\nlinkTitle: \"Quick Start\"\nweight: 100\ndescription: \n  A brief guide to testing Github APIs using HttpRider\n---\n\n{{ youtube rWmvwVuuN6I }}",
         "tags": []
     },
     {

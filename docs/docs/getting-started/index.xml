@@ -24,7 +24,7 @@
         
         &lt;h4 id=&#34;macosx&#34;&gt;MacOSX&lt;/h4&gt;
 &lt;p&gt;Download and install the latest release from&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/download/0.6.1/httprider-0.6.1.zip&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/download/0.6.2/httprider-0.6.2.zip&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;As the application is not available on AppStore, you may have to accept manually that you&#39;d like to open this app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Go to Mac Preferences&lt;/p&gt;
@@ -32,7 +32,7 @@
 &lt;p&gt;And click &amp;ldquo;Open Anyway&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/download/0.6.1/httprider-0.6.1.zip&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/download/0.6.2/httprider-0.6.2.zip&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
 &lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
 &lt;p&gt;Download the latest release from &lt;code&gt;https://github.com/namuan/http-rider/archive/master.zip&lt;/code&gt;.&lt;/p&gt;
@@ -55,7 +55,11 @@ $ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.
       <description>
         
         
-        &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jtoxr10SU6A&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/jtoxr10SU6A/0.jpg&#34; alt=&#34;HttpRider Intro&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rWmvwVuuN6I&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 
       </description>
     </item>

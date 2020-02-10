@@ -9,7 +9,7 @@ description: >
 #### MacOSX
 Download and install the latest release from
 
-[Mac OS App](https://github.com/namuan/http-rider-osx/releases/download/0.6.1/httprider-0.6.1.zip)
+[Mac OS App](https://github.com/namuan/http-rider-osx/releases/download/0.6.2/httprider-0.6.2.zip)
 
 As the application is not available on AppStore, you may have to accept manually that you'd like to open this app.
 
@@ -25,7 +25,7 @@ And click "Open Anyway"
 
 #### Windows
 
-[Windows App](https://github.com/namuan/http-rider-win/releases/download/0.6.1/httprider-0.6.1.zip)
+[Windows App](https://github.com/namuan/http-rider-win/releases/download/0.6.2/httprider-0.6.2.zip)
 
 #### Linux
 
