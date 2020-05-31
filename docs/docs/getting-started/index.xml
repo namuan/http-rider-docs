@@ -24,24 +24,22 @@
         
         &lt;h4 id=&#34;macosx&#34;&gt;MacOSX&lt;/h4&gt;
 &lt;p&gt;Download and install the latest release from&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/download/0.6.2/httprider-0.6.2.zip&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As the application is not available on AppStore, you may have to accept manually that you&#39;d like to open this app.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As the application is not available on AppStore, you may have to manually accept that you&amp;rsquo;d like to open this app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Go to Mac Preferences&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
 &lt;p&gt;And click &amp;ldquo;Open Anyway&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/download/0.6.2/httprider-0.6.2.zip&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/latest&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
 &lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
-&lt;p&gt;Download the latest release from &lt;code&gt;https://github.com/namuan/http-rider/archive/master.zip&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Download &lt;a href=&#34;https://github.com/namuan/http-rider/archive/master.zip&#34;&gt;latest release&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ cd http-rider-master # Unzipped folder name
 $ python3 --version # To validate python installation
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ python3 -m pip install -r requirements.txt
-$ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.py
+$ make setup
+$ make run
 &lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
@@ -75,7 +73,7 @@ $ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.
         
         &lt;p&gt;The configuration dialog is opened by clicking the icon on the top right corner of the window.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/150/httprider-configuration.png&#34; alt=&#34;Configuration Toolbar Button&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Once clicked, it&#39;ll open up the configuration dialog.&lt;/p&gt;
+&lt;p&gt;Once clicked, it&amp;rsquo;ll open up the configuration dialog.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/150/httprider-config-dialog.png&#34; alt=&#34;Configuration Dialog&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;requests&#34;&gt;Requests&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Timeout (secs)&lt;/strong&gt;&lt;/p&gt;
@@ -89,7 +87,7 @@ In case of either of these HTTP statuses, the response location header contains 
 Sometimes, it is not possible to configure SSL with the proxy so you can disable verification if required.&lt;/p&gt;
 &lt;h4 id=&#34;updates&#34;&gt;Updates&lt;/h4&gt;
 &lt;p&gt;Checks if a new version of HttpRider is available on start up.
-If a new version is available then you&#39;ll see an option to download the new version on the main window.&lt;/p&gt;
+If a new version is available then you&amp;rsquo;ll see an option to download the new version on the main window.&lt;/p&gt;
 &lt;h4 id=&#34;printshare&#34;&gt;Print/Share&lt;/h4&gt;
 &lt;p&gt;Configures the server to use when sharing API request/responses.
 Please check &lt;a href=&#34;/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;

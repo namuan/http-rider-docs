@@ -9,9 +9,9 @@ description: >
 #### MacOSX
 Download and install the latest release from
 
-[Mac OS App](https://github.com/namuan/http-rider-osx/releases/download/0.6.2/httprider-0.6.2.zip)
+[Mac OS App](https://github.com/namuan/http-rider-osx/releases/latest)
 
-As the application is not available on AppStore, you may have to accept manually that you'd like to open this app.
+As the application is not available on AppStore, you may have to manually accept that you'd like to open this app.
 
 ![Mac Warning](/images/gs/050/httprider-installation-warning.png)
 
@@ -25,19 +25,17 @@ And click "Open Anyway"
 
 #### Windows
 
-[Windows App](https://github.com/namuan/http-rider-win/releases/download/0.6.2/httprider-0.6.2.zip)
+[Windows App](https://github.com/namuan/http-rider-win/releases/latest)
 
 #### Linux
 
 It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.
 
-Download the latest release from `https://github.com/namuan/http-rider/archive/master.zip`. 
+Download [latest release](https://github.com/namuan/http-rider/archive/master.zip)
 
 ```
 $ cd http-rider-master # Unzipped folder name
 $ python3 --version # To validate python installation
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ python3 -m pip install -r requirements.txt
-$ export PYTHONPATH=`pwd`:$PYTHONPATH && python3 httprider/main.py
+$ make setup
+$ make run
 ```

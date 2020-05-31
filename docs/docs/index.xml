@@ -42,7 +42,7 @@ Due to space limitation, you can only view the last 10 exchanges but clicking on
         
         
         &lt;p&gt;In HttpRider, you can create and save new project workspaces.
-When you start up HttpRider for the first time, it&#39;ll automatically create a temporary project file.&lt;/p&gt;
+When you start up HttpRider for the first time, it&amp;rsquo;ll automatically create a temporary project file.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/010/httprider-temp-project-name.png&#34; alt=&#34;Temporary Project Name&#34;&gt;&lt;/p&gt;
 &lt;p&gt;To save a project, click on &lt;code&gt;File -&amp;gt; Save&lt;/code&gt; or press keyboard shortcut &lt;code&gt;Ctrl/Cmd + S&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/010/httprider-save-project.png&#34; alt=&#34;Save Project&#34;&gt;&lt;/p&gt;
@@ -63,10 +63,10 @@ When you start up HttpRider for the first time, it&#39;ll automatically create a
       <description>
         
         
-        &lt;p&gt;In this section, we&#39;ll look at environment variables and how you can use them in API requests.
+        &lt;p&gt;In this section, we&amp;rsquo;ll look at environment variables and how you can use them in API requests.
 Here are the two options in the toolbar which deals with configuring environments and switching between environments.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/015/httprider-environments-menu.png&#34; alt=&#34;Environments Menu&#34;&gt;&lt;/p&gt;
-&lt;p&gt;When you click on the button to configure environment, it&#39;ll open up a dialog box with all the configured environments.&lt;/p&gt;
+&lt;p&gt;When you click on the button to configure environment, it&amp;rsquo;ll open up a dialog box with all the configured environments.&lt;/p&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
@@ -76,7 +76,7 @@ Here are the two options in the toolbar which deals with configuring environment
 
 &lt;h4 id=&#34;creating-a-new-environment-&#34;&gt;Creating a new environment :&lt;/h4&gt;
 &lt;p&gt;Click on the button to configure environments.
-If there are no environments configured then it&#39;ll create a new &amp;lsquo;Default&amp;rsquo; environment with a single environment variable.
+If there are no environments configured then it&amp;rsquo;ll create a new &amp;lsquo;Default&amp;rsquo; environment with a single environment variable.
 You can also click on the &lt;code&gt;+&lt;/code&gt; button to add a new environment.
 The environment name is auto-generated but you can double click on the name to change it.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/015/httprider-create-new-environment.gif&#34; alt=&#34;Adding New Environment&#34;&gt;&lt;/p&gt;
@@ -92,7 +92,7 @@ The environment name is auto-generated but you can double click on the name to c
 &lt;p&gt;An environment variable can be used in setting up the endpoint, any header or query param value or even in the request body.
 You can also define a dynamic enviornment variable whose value changes between each request.
 This is useful to define a random variable.&lt;/p&gt;
-&lt;p&gt;Press &lt;code&gt;Ctrl/Cmd + G&lt;/code&gt; or press &lt;code&gt;$&lt;/code&gt; whereever you&#39;d like to insert the value of the environment variable.
+&lt;p&gt;Press &lt;code&gt;Ctrl/Cmd + G&lt;/code&gt; or press &lt;code&gt;$&lt;/code&gt; whereever you&amp;rsquo;d like to insert the value of the environment variable.
 This key combination opens up a text box which will auto filter environment variables as soon as you start typing.
 Once the environment variable is selected, press &lt;code&gt;Enter&lt;/code&gt; to insert the variable.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/015/httprider-use-environment-variables.gif&#34; alt=&#34;Using Environment Variables&#34;&gt;&lt;/p&gt;
@@ -117,7 +117,7 @@ Fake data can be inserted in the request header, query params, form params or bo
 &lt;p&gt;Another way is to right click and select &lt;code&gt;Fake Data&lt;/code&gt; from the list.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/020/httprider-fake-dialog-context-menu.png&#34; alt=&#34;Fake Data Dialog Context Menu&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Currently, you can generate fake data for some common elements with support for more options is in the roadmap.
-When selected, it&#39;ll insert a function in-place to generate the dynamic value on each request.&lt;/p&gt;
+When selected, it&amp;rsquo;ll insert a function in-place to generate the dynamic value on each request.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/ht/020/httprider-use-fake-data-generator.gif&#34; alt=&#34;Using Fake Data Generator&#34;&gt;&lt;/p&gt;
 
       </description>
@@ -237,24 +237,22 @@ Once running, you can configure the server in the configuration.&lt;/p&gt;
         
         &lt;h4 id=&#34;macosx&#34;&gt;MacOSX&lt;/h4&gt;
 &lt;p&gt;Download and install the latest release from&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/download/0.6.2/httprider-0.6.2.zip&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As the application is not available on AppStore, you may have to accept manually that you&#39;d like to open this app.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As the application is not available on AppStore, you may have to manually accept that you&amp;rsquo;d like to open this app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Go to Mac Preferences&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
 &lt;p&gt;And click &amp;ldquo;Open Anyway&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/050/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/download/0.6.2/httprider-0.6.2.zip&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/latest&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
 &lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
-&lt;p&gt;Download the latest release from &lt;code&gt;https://github.com/namuan/http-rider/archive/master.zip&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Download &lt;a href=&#34;https://github.com/namuan/http-rider/archive/master.zip&#34;&gt;latest release&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ cd http-rider-master # Unzipped folder name
 $ python3 --version # To validate python installation
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ python3 -m pip install -r requirements.txt
-$ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.py
+$ make setup
+$ make run
 &lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
@@ -288,7 +286,7 @@ $ export PYTHONPATH=`pwd`:$PYTHONPATH &amp;amp;&amp;amp; python3 httprider/main.
         
         &lt;p&gt;The configuration dialog is opened by clicking the icon on the top right corner of the window.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/150/httprider-configuration.png&#34; alt=&#34;Configuration Toolbar Button&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Once clicked, it&#39;ll open up the configuration dialog.&lt;/p&gt;
+&lt;p&gt;Once clicked, it&amp;rsquo;ll open up the configuration dialog.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/gs/150/httprider-config-dialog.png&#34; alt=&#34;Configuration Dialog&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;requests&#34;&gt;Requests&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Timeout (secs)&lt;/strong&gt;&lt;/p&gt;
@@ -302,7 +300,7 @@ In case of either of these HTTP statuses, the response location header contains 
 Sometimes, it is not possible to configure SSL with the proxy so you can disable verification if required.&lt;/p&gt;
 &lt;h4 id=&#34;updates&#34;&gt;Updates&lt;/h4&gt;
 &lt;p&gt;Checks if a new version of HttpRider is available on start up.
-If a new version is available then you&#39;ll see an option to download the new version on the main window.&lt;/p&gt;
+If a new version is available then you&amp;rsquo;ll see an option to download the new version on the main window.&lt;/p&gt;
 &lt;h4 id=&#34;printshare&#34;&gt;Print/Share&lt;/h4&gt;
 &lt;p&gt;Configures the server to use when sharing API request/responses.
 Please check &lt;a href=&#34;/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
