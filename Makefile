@@ -20,9 +20,6 @@ serve: index ## Serve site locally
 	open http://localhost:1313
 	hugo server --disableFastRender
 
-stage: index ## Deploys to Netlify staging environment
-	netlify deploy --dir=docs
-
 .PHONY: help
 .DEFAULT_GOAL := help
 

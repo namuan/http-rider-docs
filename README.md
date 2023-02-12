@@ -2,10 +2,16 @@
 
 Repository containing documentation for HttpRider.
 
-## Cloning with sub-modules
+## Cloning with sub-modules
 
 ```
 git clone --recurse-submodules --depth 1 https://github.com/namuan/http-rider-docs.git
+```
+
+## Update sub-modules
+
+```
+git submodule update --init --recursive
 ```
 
 ## Running the website locally
