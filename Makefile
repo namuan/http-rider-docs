@@ -17,7 +17,7 @@ index: generate ## Generate index
 	npm run index
 
 serve: index ## Serve site locally
-	open -a Firefox.app http://localhost:1313
+	open http://localhost:1313
 	hugo server --disableFastRender
 
 stage: index ## Deploys to Netlify staging environment

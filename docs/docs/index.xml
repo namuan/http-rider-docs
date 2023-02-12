@@ -249,7 +249,7 @@ Once running, you can configure the server in the configuration.&lt;/p&gt;
 &lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
 &lt;p&gt;It is easy to setup HttpRider from source. Make you that you have Python3+ installed on your machine.&lt;/p&gt;
 &lt;p&gt;Download &lt;a href=&#34;https://github.com/namuan/http-rider/archive/master.zip&#34;&gt;latest release&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ cd http-rider-master # Unzipped folder name
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cd http-rider-master # Unzipped folder name
 $ python3 --version # To validate python installation
 $ make setup
 $ make run
