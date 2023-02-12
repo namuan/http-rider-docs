@@ -28,7 +28,7 @@ pygmentsUseClassic = false
 pygmentsStyle = "tango"
 
 # Make sure that static items are referenced correctly with baseURL
-# canonifyURLs = true
+ canonifyURLs = true
 
 # Configure how URLs look like per section.
 [permalinks]
