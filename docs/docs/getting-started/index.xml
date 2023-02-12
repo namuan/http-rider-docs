@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HttpRider – Getting Started</title>
-    <link>/docs/getting-started/</link>
+    <link>/http-rider-docs/docs/getting-started/</link>
     <description>Recent content in Getting Started on HttpRider</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/http-rider-docs/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Installation</title>
-      <link>/docs/getting-started/installation/</link>
+      <link>/http-rider-docs/docs/getting-started/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/getting-started/installation/</guid>
+      <guid>/http-rider-docs/docs/getting-started/installation/</guid>
       <description>
         
         
@@ -26,11 +26,11 @@
 &lt;p&gt;Download and install the latest release from&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;As the application is not available on AppStore, you may have to manually accept that you&amp;rsquo;d like to open this app.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/gs/050/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/httprider-installation-warning.png&#34; alt=&#34;Mac Warning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Go to Mac Preferences&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/gs/050/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/system-pref-security.png&#34; alt=&#34;Mac Preferences&#34;&gt;&lt;/p&gt;
 &lt;p&gt;And click &amp;ldquo;Open Anyway&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/gs/050/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/050/security-open-anyway.png&#34; alt=&#34;Open Anyway&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;windows&#34;&gt;Windows&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/latest&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;linux&#34;&gt;Linux&lt;/h4&gt;
@@ -46,10 +46,10 @@ $ make run
     
     <item>
       <title>Docs: Quick Start</title>
-      <link>/docs/getting-started/quick-start/</link>
+      <link>/http-rider-docs/docs/getting-started/quick-start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/getting-started/quick-start/</guid>
+      <guid>/http-rider-docs/docs/getting-started/quick-start/</guid>
       <description>
         
         
@@ -64,17 +64,17 @@ $ make run
     
     <item>
       <title>Docs: Configuration Reference</title>
-      <link>/docs/getting-started/configuration/</link>
+      <link>/http-rider-docs/docs/getting-started/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/getting-started/configuration/</guid>
+      <guid>/http-rider-docs/docs/getting-started/configuration/</guid>
       <description>
         
         
         &lt;p&gt;The configuration dialog is opened by clicking the icon on the top right corner of the window.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/gs/150/httprider-configuration.png&#34; alt=&#34;Configuration Toolbar Button&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/150/httprider-configuration.png&#34; alt=&#34;Configuration Toolbar Button&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Once clicked, it&amp;rsquo;ll open up the configuration dialog.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/gs/150/httprider-config-dialog.png&#34; alt=&#34;Configuration Dialog&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/http-rider-docs/images/gs/150/httprider-config-dialog.png&#34; alt=&#34;Configuration Dialog&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;requests&#34;&gt;Requests&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Timeout (secs)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Number of seconds HttpRider waits for the response before timing out and closing the connection.&lt;/p&gt;
@@ -90,17 +90,17 @@ Sometimes, it is not possible to configure SSL with the proxy so you can disable
 If a new version is available then you&amp;rsquo;ll see an option to download the new version on the main window.&lt;/p&gt;
 &lt;h4 id=&#34;printshare&#34;&gt;Print/Share&lt;/h4&gt;
 &lt;p&gt;Configures the server to use when sharing API request/responses.
-Please check &lt;a href=&#34;/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
+Please check &lt;a href=&#34;/http-rider-docs/http-rider-docs/docs/how-tos/050_sharing_api_exchange/&#34;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Docs: Shortcuts Reference</title>
-      <link>/docs/getting-started/shortcuts/</link>
+      <link>/http-rider-docs/docs/getting-started/shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/getting-started/shortcuts/</guid>
+      <guid>/http-rider-docs/docs/getting-started/shortcuts/</guid>
       <description>
         
         
